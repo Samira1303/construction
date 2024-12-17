@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.maindiv {
+  background-image: url("../css/assets/istockphoto-1286529382-612x612.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+.maindiv .navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+.maindiv .navbar_right {
+  height: 40px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maindiv .construction {
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maindiv .construction_textbox {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.maindiv .construction_textbox_under h1 {
+  color: black;
+}
+.maindiv .construction_textbox_under {
+  text-align: center;
+}
+.maindiv .construction_textbox_progressbox {
+  width: 75%;
+}
+.maindiv .construction_textbox_progressbox_minibox {
+  display: flex;
+  justify-content: space-between;
+}
+.maindiv .construction_iconbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100px;
+  width: 30%;
+}
+.maindiv .construction .fbox {
+  min-height: 400px;
+  display: flex;
+  align-items: flex-end;
+}/*# sourceMappingURL=style.css.map */
